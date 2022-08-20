@@ -5,9 +5,9 @@ dotenv.config();
 import fs from "fs";
 
 (async () => {
-  const packAddress = "0x0Aee160411473f63be2DfF2865E81A1D59636C97";
-  const tokenAddress = "0x270d0f9DA22332F33159337E3DE244113a1C863C";
-  const editionAddress = "0xb4A48c837aB7D0e5C85eA2b0D9Aa11537340Fa17";
+  const packAddress = "0x8c8390Fb2aB527CC23938eF4C306AD17A0Da49D8";
+  const tokenAddress = "0xb28c1631BdFA6492cA02eBCd8f63F4eE8BC4B7a5";
+  const editionAddress = "0xb28c1631BdFA6492cA02eBCd8f63F4eE8BC4B7a5";
 
   const sdk = ThirdwebSDK.fromPrivateKey(process.env.PRIVATE_KEY, "mumbai");
 

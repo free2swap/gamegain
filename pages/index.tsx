@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
   const [rewards, setRewards] = useState<PackRewardsOutput>();
 
-  const pack = usePack("0x0Aee160411473f63be2DfF2865E81A1D59636C97");
+  const pack = usePack("0x8c8390Fb2aB527CC23938eF4C306AD17A0Da49D8");
 
   const { data: nfts, isLoading } = useOwnedNFTs(pack, address);
 
